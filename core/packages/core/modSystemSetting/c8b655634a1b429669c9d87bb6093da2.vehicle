@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3763fe08b07762353f1d1246e8264c6d',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'c8b655634a1b429669c9d87bb6093da2',
+  'native_key' => 'phpthumb_nooffsitelink_require_refer',
+  'object' => '{"key":"phpthumb_nooffsitelink_require_refer","value":false,"xtype":"combo-boolean","namespace":"core","area":"phpthumb","editedon":null}',
+);

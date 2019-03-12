@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '2285a1b93ebebf4f5459092af69cf28f',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => '6060d5ae94c7eb21b2f3542c340455c8',
+  'native_key' => 'OnHandleRequest',
+  'object' => '{"name":"OnHandleRequest","service":5,"groupname":"System"}',
+);

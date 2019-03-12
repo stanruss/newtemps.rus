@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '230bdd2c9c946df4718a1a22201e3278',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'a4117497f0c037ed17245bae7792b554',
+  'native_key' => 'lock_ttl',
+  'object' => '{"key":"lock_ttl","value":360,"xtype":"textfield","namespace":"core","area":"system","editedon":null}',
+);

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c3138f246a0c1f42c90a4b65766b68de',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => 'baf06e2fa499b645edca02a523952f5d',
+  'native_key' => 'OnDocFormSave',
+  'object' => '{"name":"OnDocFormSave","service":1,"groupname":"Resources"}',
+);

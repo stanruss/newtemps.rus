@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '4fb134f8257e22eda65d67ed39c554f4',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '387664b8f2f503bce26876dc11e0f56a',
+  'native_key' => 'upload_media',
+  'object' => '{"key":"upload_media","value":"mp3,wav,au,wmv,avi,mpg,mpeg","xtype":"textfield","namespace":"core","area":"file","editedon":null}',
+);

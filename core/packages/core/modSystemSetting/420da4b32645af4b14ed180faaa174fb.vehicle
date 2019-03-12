@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1fd008be47046127545f455d87945614',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '420da4b32645af4b14ed180faaa174fb',
+  'native_key' => 'phpthumb_nohotlink_text_message',
+  'object' => '{"key":"phpthumb_nohotlink_text_message","value":"Off-server thumbnailing is not allowed","xtype":"textfield","namespace":"core","area":"phpthumb","editedon":null}',
+);

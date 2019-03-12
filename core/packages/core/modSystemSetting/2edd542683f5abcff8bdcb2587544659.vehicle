@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '4ab8768f7772a41060e1891600b3b828',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '2edd542683f5abcff8bdcb2587544659',
+  'native_key' => 'clear_cache_refresh_trees',
+  'object' => '{"key":"clear_cache_refresh_trees","value":0,"xtype":"combo-boolean","namespace":"core","area":"caching","editedon":null}',
+);

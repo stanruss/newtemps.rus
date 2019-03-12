@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '0f4ad2a6f749124ba8af864c3dbc8bde',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => '6172273c2272e2b5a5762d9901f00fee',
+  'native_key' => 'OnResourceGroupBeforeRemove',
+  'object' => '{"name":"OnResourceGroupBeforeRemove","service":1,"groupname":"Security"}',
+);
