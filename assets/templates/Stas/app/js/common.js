@@ -117,11 +117,26 @@
 //     $(window).on('load', function (e){
 //         $('#preloader').fadeOut('slow',function(){$(this).remove();});
 //     });
-    
+
 // })(jQuery)
+$(window).scroll(function () {
+
+	if ($(this).scrollTop() > 374) {
+		$('.navbar').addClass('fixed-top animated fadeInDown');
+		
+	} else {
+		$('.navbar').removeClass('fixed-top animated fadeInDown');		
+	}
+});
 $(function(){ 
-     var navMain = $(".navbar-collapse"); 
-     navMain.on("click", "a:not([data-toggle])", null, function () {
-         navMain.collapse('hide');
-     });
- });
+	var navMain = $(".navbar-collapse"); 
+	navMain.on("click", "a:not([data-toggle])", null, function () {
+		navMain.collapse('hide');
+	});
+});
+
+// $(window).load(function() {
+
+// $(" .cnr     ").animated("fadeInUp ", "fadeOutDown");
+
+// });

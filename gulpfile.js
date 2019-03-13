@@ -45,6 +45,8 @@ gulp.task('sass', function() {
 });
 gulp.task('libs', function() {
 	return gulp.src([
+		// 'assets/templates/Stas/app/libs/animate/animate-css.js',
+		// 'assets/templates/Stas/app/libs/animate/waypoints.min.js',
 		'assets/templates/Stas/app/js/common.js'
 		])
 		.pipe(concat('libs.min.js'))
