@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Мар 13 2019 г., 16:20
+-- Время создания: Мар 21 2019 г., 16:21
 -- Версия сервера: 5.6.41
 -- Версия PHP: 5.5.38
 
@@ -4805,7 +4805,149 @@ INSERT INTO `new_manager_log` (`id`, `user`, `occurred`, `action`, `classKey`, `
 (3315, 1, '2019-03-13 16:13:24', 'chunk_update', 'modChunk', '22'),
 (3316, 1, '2019-03-13 16:13:25', 'propertyset_update_from_element', 'modChunk', '22'),
 (3317, 1, '2019-03-13 16:13:47', 'chunk_update', 'modChunk', '22'),
-(3318, 1, '2019-03-13 16:13:47', 'propertyset_update_from_element', 'modChunk', '22');
+(3318, 1, '2019-03-13 16:13:47', 'propertyset_update_from_element', 'modChunk', '22'),
+(3319, 1, '2019-03-21 13:13:12', 'login', 'modContext', 'mgr'),
+(3320, 1, '2019-03-21 13:17:57', 'chunk_update', 'modChunk', '94'),
+(3321, 1, '2019-03-21 13:17:57', 'propertyset_update_from_element', 'modChunk', '94'),
+(3322, 1, '2019-03-21 13:19:12', 'chunk_update', 'modChunk', '94'),
+(3323, 1, '2019-03-21 13:19:13', 'propertyset_update_from_element', 'modChunk', '94'),
+(3324, 1, '2019-03-21 13:20:33', 'chunk_update', 'modChunk', '94'),
+(3325, 1, '2019-03-21 13:20:34', 'propertyset_update_from_element', 'modChunk', '94'),
+(3326, 1, '2019-03-21 13:21:40', 'chunk_update', 'modChunk', '94'),
+(3327, 1, '2019-03-21 13:21:40', 'propertyset_update_from_element', 'modChunk', '94'),
+(3328, 1, '2019-03-21 13:22:11', 'chunk_update', 'modChunk', '94'),
+(3329, 1, '2019-03-21 13:22:12', 'propertyset_update_from_element', 'modChunk', '94'),
+(3330, 1, '2019-03-21 13:22:21', 'chunk_update', 'modChunk', '94'),
+(3331, 1, '2019-03-21 13:22:21', 'propertyset_update_from_element', 'modChunk', '94'),
+(3332, 1, '2019-03-21 13:24:03', 'chunk_update', 'modChunk', '94'),
+(3333, 1, '2019-03-21 13:24:04', 'propertyset_update_from_element', 'modChunk', '94'),
+(3334, 1, '2019-03-21 13:24:45', 'chunk_update', 'modChunk', '94'),
+(3335, 1, '2019-03-21 13:24:45', 'propertyset_update_from_element', 'modChunk', '94'),
+(3336, 1, '2019-03-21 13:25:22', 'chunk_update', 'modChunk', '94'),
+(3337, 1, '2019-03-21 13:25:22', 'propertyset_update_from_element', 'modChunk', '94'),
+(3338, 1, '2019-03-21 13:25:52', 'chunk_update', 'modChunk', '94'),
+(3339, 1, '2019-03-21 13:25:52', 'propertyset_update_from_element', 'modChunk', '94'),
+(3340, 1, '2019-03-21 13:27:40', 'chunk_update', 'modChunk', '94'),
+(3341, 1, '2019-03-21 13:27:41', 'propertyset_update_from_element', 'modChunk', '94'),
+(3342, 1, '2019-03-21 13:28:21', 'chunk_update', 'modChunk', '94'),
+(3343, 1, '2019-03-21 13:28:21', 'propertyset_update_from_element', 'modChunk', '94'),
+(3344, 1, '2019-03-21 13:29:24', 'chunk_update', 'modChunk', '94'),
+(3345, 1, '2019-03-21 13:29:24', 'propertyset_update_from_element', 'modChunk', '94'),
+(3346, 1, '2019-03-21 13:29:47', 'chunk_update', 'modChunk', '94'),
+(3347, 1, '2019-03-21 13:29:48', 'propertyset_update_from_element', 'modChunk', '94'),
+(3348, 1, '2019-03-21 13:30:28', 'chunk_update', 'modChunk', '94');
+INSERT INTO `new_manager_log` (`id`, `user`, `occurred`, `action`, `classKey`, `item`) VALUES
+(3349, 1, '2019-03-21 13:30:28', 'propertyset_update_from_element', 'modChunk', '94'),
+(3350, 1, '2019-03-21 13:31:48', 'chunk_update', 'modChunk', '94'),
+(3351, 1, '2019-03-21 13:31:48', 'propertyset_update_from_element', 'modChunk', '94'),
+(3352, 1, '2019-03-21 13:32:28', 'chunk_update', 'modChunk', '94'),
+(3353, 1, '2019-03-21 13:32:28', 'propertyset_update_from_element', 'modChunk', '94'),
+(3354, 1, '2019-03-21 13:33:01', 'chunk_update', 'modChunk', '94'),
+(3355, 1, '2019-03-21 13:33:01', 'propertyset_update_from_element', 'modChunk', '94'),
+(3356, 1, '2019-03-21 13:33:36', 'chunk_update', 'modChunk', '94'),
+(3357, 1, '2019-03-21 13:33:36', 'propertyset_update_from_element', 'modChunk', '94'),
+(3358, 1, '2019-03-21 13:34:16', 'chunk_update', 'modChunk', '94'),
+(3359, 1, '2019-03-21 13:34:16', 'propertyset_update_from_element', 'modChunk', '94'),
+(3360, 1, '2019-03-21 13:37:30', 'chunk_update', 'modChunk', '94'),
+(3361, 1, '2019-03-21 13:37:31', 'propertyset_update_from_element', 'modChunk', '94'),
+(3362, 1, '2019-03-21 13:38:26', 'chunk_update', 'modChunk', '94'),
+(3363, 1, '2019-03-21 13:38:27', 'propertyset_update_from_element', 'modChunk', '94'),
+(3364, 1, '2019-03-21 13:41:14', 'chunk_update', 'modChunk', '94'),
+(3365, 1, '2019-03-21 13:41:14', 'propertyset_update_from_element', 'modChunk', '94'),
+(3366, 1, '2019-03-21 13:41:45', 'chunk_update', 'modChunk', '94'),
+(3367, 1, '2019-03-21 13:41:45', 'propertyset_update_from_element', 'modChunk', '94'),
+(3368, 1, '2019-03-21 13:42:04', 'chunk_update', 'modChunk', '94'),
+(3369, 1, '2019-03-21 13:42:04', 'propertyset_update_from_element', 'modChunk', '94'),
+(3370, 1, '2019-03-21 13:42:26', 'chunk_update', 'modChunk', '94'),
+(3371, 1, '2019-03-21 13:42:27', 'propertyset_update_from_element', 'modChunk', '94'),
+(3372, 1, '2019-03-21 13:42:36', 'chunk_update', 'modChunk', '94'),
+(3373, 1, '2019-03-21 13:42:36', 'propertyset_update_from_element', 'modChunk', '94'),
+(3374, 1, '2019-03-21 14:20:57', 'chunk_update', 'modChunk', '94'),
+(3375, 1, '2019-03-21 14:20:57', 'propertyset_update_from_element', 'modChunk', '94'),
+(3376, 1, '2019-03-21 14:21:15', 'chunk_update', 'modChunk', '94'),
+(3377, 1, '2019-03-21 14:21:16', 'propertyset_update_from_element', 'modChunk', '94'),
+(3378, 1, '2019-03-21 14:21:30', 'chunk_update', 'modChunk', '94'),
+(3379, 1, '2019-03-21 14:21:31', 'propertyset_update_from_element', 'modChunk', '94'),
+(3380, 1, '2019-03-21 14:22:52', 'chunk_update', 'modChunk', '94'),
+(3381, 1, '2019-03-21 14:22:52', 'propertyset_update_from_element', 'modChunk', '94'),
+(3382, 1, '2019-03-21 14:24:18', 'chunk_update', 'modChunk', '94'),
+(3383, 1, '2019-03-21 14:24:18', 'propertyset_update_from_element', 'modChunk', '94'),
+(3384, 1, '2019-03-21 14:25:17', 'chunk_update', 'modChunk', '94'),
+(3385, 1, '2019-03-21 14:25:18', 'propertyset_update_from_element', 'modChunk', '94'),
+(3386, 1, '2019-03-21 14:25:53', 'chunk_update', 'modChunk', '94'),
+(3387, 1, '2019-03-21 14:25:54', 'propertyset_update_from_element', 'modChunk', '94'),
+(3388, 1, '2019-03-21 14:27:43', 'chunk_update', 'modChunk', '94'),
+(3389, 1, '2019-03-21 14:27:43', 'propertyset_update_from_element', 'modChunk', '94'),
+(3390, 1, '2019-03-21 14:28:35', 'chunk_update', 'modChunk', '94'),
+(3391, 1, '2019-03-21 14:28:36', 'propertyset_update_from_element', 'modChunk', '94'),
+(3392, 1, '2019-03-21 14:29:36', 'chunk_update', 'modChunk', '94'),
+(3393, 1, '2019-03-21 14:29:37', 'propertyset_update_from_element', 'modChunk', '94'),
+(3394, 1, '2019-03-21 14:30:33', 'chunk_update', 'modChunk', '94'),
+(3395, 1, '2019-03-21 14:30:33', 'propertyset_update_from_element', 'modChunk', '94'),
+(3396, 1, '2019-03-21 14:31:33', 'chunk_update', 'modChunk', '94'),
+(3397, 1, '2019-03-21 14:31:34', 'propertyset_update_from_element', 'modChunk', '94'),
+(3398, 1, '2019-03-21 14:32:05', 'chunk_update', 'modChunk', '94'),
+(3399, 1, '2019-03-21 14:32:05', 'propertyset_update_from_element', 'modChunk', '94'),
+(3400, 1, '2019-03-21 14:33:40', 'chunk_update', 'modChunk', '94'),
+(3401, 1, '2019-03-21 14:33:40', 'propertyset_update_from_element', 'modChunk', '94'),
+(3402, 1, '2019-03-21 14:34:49', 'chunk_update', 'modChunk', '94'),
+(3403, 1, '2019-03-21 14:34:49', 'propertyset_update_from_element', 'modChunk', '94'),
+(3404, 1, '2019-03-21 14:35:39', 'chunk_update', 'modChunk', '94'),
+(3405, 1, '2019-03-21 14:35:40', 'propertyset_update_from_element', 'modChunk', '94'),
+(3406, 1, '2019-03-21 14:36:17', 'chunk_update', 'modChunk', '94'),
+(3407, 1, '2019-03-21 14:36:17', 'propertyset_update_from_element', 'modChunk', '94'),
+(3408, 1, '2019-03-21 14:37:22', 'chunk_update', 'modChunk', '94'),
+(3409, 1, '2019-03-21 14:37:22', 'propertyset_update_from_element', 'modChunk', '94'),
+(3410, 1, '2019-03-21 14:38:05', 'chunk_update', 'modChunk', '94'),
+(3411, 1, '2019-03-21 14:38:06', 'propertyset_update_from_element', 'modChunk', '94'),
+(3412, 1, '2019-03-21 14:39:29', 'chunk_update', 'modChunk', '94'),
+(3413, 1, '2019-03-21 14:39:29', 'propertyset_update_from_element', 'modChunk', '94'),
+(3414, 1, '2019-03-21 14:40:02', 'chunk_update', 'modChunk', '94'),
+(3415, 1, '2019-03-21 14:40:03', 'propertyset_update_from_element', 'modChunk', '94'),
+(3416, 1, '2019-03-21 14:40:55', 'chunk_update', 'modChunk', '94'),
+(3417, 1, '2019-03-21 14:40:55', 'propertyset_update_from_element', 'modChunk', '94'),
+(3418, 1, '2019-03-21 14:41:26', 'chunk_update', 'modChunk', '94'),
+(3419, 1, '2019-03-21 14:41:26', 'propertyset_update_from_element', 'modChunk', '94'),
+(3420, 1, '2019-03-21 14:42:05', 'chunk_update', 'modChunk', '94'),
+(3421, 1, '2019-03-21 14:42:06', 'propertyset_update_from_element', 'modChunk', '94'),
+(3422, 1, '2019-03-21 14:43:45', 'chunk_update', 'modChunk', '94'),
+(3423, 1, '2019-03-21 14:43:45', 'propertyset_update_from_element', 'modChunk', '94'),
+(3424, 1, '2019-03-21 14:44:37', 'chunk_update', 'modChunk', '94'),
+(3425, 1, '2019-03-21 14:44:37', 'propertyset_update_from_element', 'modChunk', '94'),
+(3426, 1, '2019-03-21 14:47:00', 'chunk_update', 'modChunk', '94'),
+(3427, 1, '2019-03-21 14:47:01', 'propertyset_update_from_element', 'modChunk', '94'),
+(3428, 1, '2019-03-21 14:47:55', 'chunk_update', 'modChunk', '94'),
+(3429, 1, '2019-03-21 14:47:55', 'propertyset_update_from_element', 'modChunk', '94'),
+(3430, 1, '2019-03-21 14:48:34', 'chunk_update', 'modChunk', '94'),
+(3431, 1, '2019-03-21 14:48:34', 'propertyset_update_from_element', 'modChunk', '94'),
+(3432, 1, '2019-03-21 14:50:09', 'chunk_update', 'modChunk', '94'),
+(3433, 1, '2019-03-21 14:50:10', 'propertyset_update_from_element', 'modChunk', '94'),
+(3434, 1, '2019-03-21 14:50:59', 'chunk_update', 'modChunk', '94'),
+(3435, 1, '2019-03-21 14:50:59', 'propertyset_update_from_element', 'modChunk', '94'),
+(3436, 1, '2019-03-21 14:51:14', 'chunk_update', 'modChunk', '94'),
+(3437, 1, '2019-03-21 14:51:15', 'propertyset_update_from_element', 'modChunk', '94'),
+(3438, 1, '2019-03-21 14:53:14', 'chunk_update', 'modChunk', '94'),
+(3439, 1, '2019-03-21 14:53:14', 'propertyset_update_from_element', 'modChunk', '94'),
+(3440, 1, '2019-03-21 14:54:18', 'chunk_update', 'modChunk', '94'),
+(3441, 1, '2019-03-21 14:54:19', 'propertyset_update_from_element', 'modChunk', '94'),
+(3442, 1, '2019-03-21 14:54:38', 'chunk_update', 'modChunk', '94'),
+(3443, 1, '2019-03-21 14:54:38', 'propertyset_update_from_element', 'modChunk', '94'),
+(3444, 1, '2019-03-21 15:01:31', 'chunk_update', 'modChunk', '94'),
+(3445, 1, '2019-03-21 15:01:32', 'propertyset_update_from_element', 'modChunk', '94'),
+(3446, 1, '2019-03-21 15:02:34', 'chunk_update', 'modChunk', '94'),
+(3447, 1, '2019-03-21 15:02:34', 'propertyset_update_from_element', 'modChunk', '94'),
+(3448, 1, '2019-03-21 15:03:44', 'chunk_update', 'modChunk', '94'),
+(3449, 1, '2019-03-21 15:03:45', 'propertyset_update_from_element', 'modChunk', '94'),
+(3450, 1, '2019-03-21 15:04:43', 'chunk_update', 'modChunk', '94'),
+(3451, 1, '2019-03-21 15:04:44', 'propertyset_update_from_element', 'modChunk', '94'),
+(3452, 1, '2019-03-21 15:05:23', 'chunk_update', 'modChunk', '94'),
+(3453, 1, '2019-03-21 15:05:23', 'propertyset_update_from_element', 'modChunk', '94'),
+(3454, 1, '2019-03-21 15:07:05', 'chunk_update', 'modChunk', '94'),
+(3455, 1, '2019-03-21 15:07:06', 'propertyset_update_from_element', 'modChunk', '94'),
+(3456, 1, '2019-03-21 15:07:44', 'chunk_update', 'modChunk', '94'),
+(3457, 1, '2019-03-21 15:07:44', 'propertyset_update_from_element', 'modChunk', '94'),
+(3458, 1, '2019-03-21 15:08:52', 'chunk_update', 'modChunk', '94'),
+(3459, 1, '2019-03-21 15:08:52', 'propertyset_update_from_element', 'modChunk', '94');
 
 -- --------------------------------------------------------
 
@@ -5326,7 +5468,9 @@ INSERT INTO `new_session` (`id`, `access`, `data`) VALUES
 ('64u2c2qkp2br372dodgcrj9060', 1552397480, 'modx.user.contextTokens|a:0:{}modx.user.0.resourceGroups|a:1:{s:3:\"web\";a:0:{}}modx.user.0.attributes|a:1:{s:3:\"web\";a:5:{s:16:\"modAccessContext\";a:1:{s:3:\"web\";a:1:{i:0;a:3:{s:9:\"principal\";i:0;s:9:\"authority\";s:1:\"0\";s:6:\"policy\";a:1:{s:4:\"load\";b:1;}}}}s:22:\"modAccessResourceGroup\";a:0:{}s:17:\"modAccessCategory\";a:0:{}s:28:\"sources.modAccessMediaSource\";a:0:{}s:18:\"modAccessNamespace\";a:0:{}}}'),
 ('b2m2ubph35qv7adh6uidnku6s2', 1552468607, 'modx.user.contextTokens|a:0:{}'),
 ('gtboa9mr0ftq7qbv4kp4lgkin4', 1552468629, 'modx.user.contextTokens|a:1:{s:3:\"mgr\";i:1;}modx.user.0.resourceGroups|a:1:{s:3:\"web\";a:0:{}}modx.user.0.attributes|a:1:{s:3:\"web\";a:5:{s:16:\"modAccessContext\";a:1:{s:3:\"web\";a:1:{i:0;a:3:{s:9:\"principal\";i:0;s:9:\"authority\";s:1:\"0\";s:6:\"policy\";a:1:{s:4:\"load\";b:1;}}}}s:22:\"modAccessResourceGroup\";a:0:{}s:17:\"modAccessCategory\";a:0:{}s:28:\"sources.modAccessMediaSource\";a:0:{}s:18:\"modAccessNamespace\";a:0:{}}}modx.mgr.user.token|s:52:\"modx5bab97619c07d8.37432727_15c88ca9052e789.32259861\";modx.mgr.session.cookie.lifetime|i:0;modx.mgr.user.config|a:0:{}'),
-('k6bgclj134ivcqonuhc3e59s40', 1552481727, 'modx.user.contextTokens|a:0:{}');
+('k6bgclj134ivcqonuhc3e59s40', 1552481727, 'modx.user.contextTokens|a:0:{}'),
+('jnj3aggc3c29c4qnh6k8gdq263', 1553163197, 'modx.user.contextTokens|a:1:{s:3:\"mgr\";i:1;}modx.user.0.resourceGroups|a:1:{s:3:\"web\";a:0:{}}modx.user.0.attributes|a:1:{s:3:\"web\";a:5:{s:16:\"modAccessContext\";a:1:{s:3:\"web\";a:1:{i:0;a:3:{s:9:\"principal\";i:0;s:9:\"authority\";s:1:\"0\";s:6:\"policy\";a:1:{s:4:\"load\";b:1;}}}}s:22:\"modAccessResourceGroup\";a:0:{}s:17:\"modAccessCategory\";a:0:{}s:28:\"sources.modAccessMediaSource\";a:0:{}s:18:\"modAccessNamespace\";a:0:{}}}modx.mgr.user.token|s:52:\"modx5bab97619c07d8.37432727_15c9363b8708410.28976094\";modx.mgr.session.cookie.lifetime|i:0;modx.mgr.user.config|a:0:{}'),
+('dd6u19o38lgrls73ha6d00q3e4', 1553163482, 'modx.user.contextTokens|a:0:{}modx.user.0.resourceGroups|a:1:{s:3:\"web\";a:0:{}}modx.user.0.attributes|a:1:{s:3:\"web\";a:5:{s:16:\"modAccessContext\";a:1:{s:3:\"web\";a:1:{i:0;a:3:{s:9:\"principal\";i:0;s:9:\"authority\";s:1:\"0\";s:6:\"policy\";a:1:{s:4:\"load\";b:1;}}}}s:22:\"modAccessResourceGroup\";a:0:{}s:17:\"modAccessCategory\";a:0:{}s:28:\"sources.modAccessMediaSource\";a:0:{}s:18:\"modAccessNamespace\";a:0:{}}}');
 
 -- --------------------------------------------------------
 
@@ -5490,7 +5634,7 @@ INSERT INTO `new_site_htmlsnippets` (`id`, `source`, `property_preprocess`, `nam
 (69, 0, 0, 'DemoGalleryAlbumTpl', '', 0, 10, 0, '\n\n<div class=\"albumname\">\n<div class=\"link\"><a href=\"[[~[[*id]]]][[+id]]\"><i class=\"fa fa-arrow-circle-left\" aria-hidden=\"true\"></i>Назад в галерею.</a>\n</div>\n<h1>[[+album_name]]</h1>\n</div>\n[[+thumbnails]]\n', 0, NULL, 0, ''),
 (70, 0, 0, 'SiteGalleryItemTpl', '', 0, 10, 0, '<div class=\"galItem [[+class]]\">\n    <div class=\"title\"><span>[[+title]]</span></div>\n    <a href=\"[[+src]]\" class=\"gallery\" title=\"[[+title]]\">\n        <img src=\"/assets/components/site_gallery/connector.php?action=web/image/gallery/small&src=[[+src]]\"/>\n    </a>\n</div>', 0, NULL, 0, ''),
 (71, 0, 0, 'SiteGalleryRowTpl', '', 0, 10, 0, '<div class=\"[[+class]]\">[[+wrapper]]</div>', 0, NULL, 0, ''),
-(94, 1, 0, 'Body', '', 0, 21, 0, '<section><div class=\"cnr\">43434</div></section>', 0, 'a:0:{}', 0, '');
+(94, 1, 0, 'Body', '', 0, 21, 0, '<div class=\"cnr d-flex justify-content-start\"><div class=\"cnr1\">justify-content-start</div><div class=\"cnr1\">justify-content-start</div></div>\r\n<div class=\"cnr d-flex justify-content-end\"><div class=\"cnr1\">justify-content-end</div><div class=\"cnr1\">justify-content-end</div></div>\r\n<div class=\"cnr d-flex justify-content-center\"><div class=\"cnr1\">justify-content-center</div><div class=\"cnr1\">justify-content-center</div></div>\r\n<div class=\"cnr d-flex justify-content-between\"><div class=\"cnr1\">justify-content-between</div><div class=\"cnr1\">justify-content-between</div></div>\r\n<div class=\"cnr d-flex justify-content-around\"><div class=\"cnr1\">justify-content-around</div><div class=\"cnr1\">justify-content-around</div></div>\r\n\r\n<div class=\"cnr d-flex justify-content-start align-items-start\"><div class=\"cnr1\">justify-content-start align-items-start</div><div class=\"cnr1\">justify-content-start align-items-start</div></div>\r\n<div class=\"cnr d-flex justify-content-end align-items-center\"><div class=\"cnr1\">justify-content-end align-items-center</div><div class=\"cnr1\">justify-content-end align-items-center</div></div>\r\n<div class=\"cnr d-flex justify-content-center align-items-end\"><div class=\"cnr1\">justify-content-center align-items-end</div><div class=\"cnr1\">justify-content-center align-items-end</div></div>\r\n<div class=\"cnr d-flex justify-content-between align-items-baseline\"><div class=\"cnr1\">justify-content-between align-items-baseline</div><div class=\"cnr1\">justify-content-between align-items-baseline</div></div>\r\n<div class=\"cnr d-flex justify-content-around align-items-stretch\"><div class=\"cnr1\">justify-content-around align-items-stretch</div><div class=\"cnr1\">justify-content-around align-items-stretch</div></div>', 0, 'a:0:{}', 0, '');
 
 -- --------------------------------------------------------
 
@@ -6726,7 +6870,7 @@ CREATE TABLE `new_user_attributes` (
 --
 
 INSERT INTO `new_user_attributes` (`id`, `internalKey`, `fullname`, `email`, `phone`, `mobilephone`, `blocked`, `blockeduntil`, `blockedafter`, `logincount`, `lastlogin`, `thislogin`, `failedlogincount`, `sessionid`, `dob`, `gender`, `address`, `country`, `city`, `state`, `zip`, `fax`, `photo`, `comment`, `website`, `extended`) VALUES
-(1, 1, 'Администратор по умолчанию', 'stan19781@gmail.com', '', '', 0, 0, 0, 206, 1552395008, 1552468624, 0, 'gtboa9mr0ftq7qbv4kp4lgkin4', 0, 0, '', '', '', '', '', '', '', '', '', NULL),
+(1, 1, 'Администратор по умолчанию', 'stan19781@gmail.com', '', '', 0, 0, 0, 207, 1552468624, 1553163192, 0, 'jnj3aggc3c29c4qnh6k8gdq263', 0, 0, '', '', '', '', '', '', '', '', '', NULL),
 (3, 3, '', 'platonov_stan@mail.ru', '', '', 0, 0, 0, 7, 1491287477, 1491302110, 0, 'pinq7vkq5q6r7f8adtj2m64550', 0, 0, '', '', '', '', '', '', '', '', '', '[]');
 
 -- --------------------------------------------------------
@@ -7903,7 +8047,7 @@ ALTER TABLE `new_lexicon_entries`
 -- AUTO_INCREMENT для таблицы `new_manager_log`
 --
 ALTER TABLE `new_manager_log`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3319;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3460;
 
 --
 -- AUTO_INCREMENT для таблицы `new_media_sources`
